@@ -55,12 +55,12 @@ void main()
     scanf("%d", &b);
     printf("enter the marks");
     scanf("%d", &c);
-    if (a < 33 || b < 33 || c < 33)
+    if (a < 33 && b < 33 && c < 33)
     {
-        printf("you are fail because of less marks");
+        printf("you pass the exam");
     }
     else
     {
-        printf("you are pass");
+        printf("you are fail because of less marks");
     }
 }
